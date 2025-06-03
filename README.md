@@ -17,8 +17,7 @@ After compiling all MOD files load the appropriate HOC file (`init.hoc`) from th
 
 The network dimensions and synaptic convergence/divergence are specified at the `parameters.hoc` file. The cells are created from templates at the `createcells.hoc` while gap junctions and chemical synapses are created at `netconnection.hoc`.
 
+---
 20120326 Bip_Cad.mod and Rod_Cad.mod solve methods updated from euler to derivimplicit as recommended in [http://www.neuron.yale.edu/phpbb/viewtopic.php?f=28&t=592](http://www.neuron.yale.edu/phpbb/viewtopic.php?f=28&t=592)
 
----
-
-2025-06-02: Converted README to Markdown.
+20250602 Converted README to Markdown.
